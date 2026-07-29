@@ -2,7 +2,7 @@ name: Hello Pravesh
 on: workflow_dispatch
 jobs:
   hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Hello steps:
-        run: echo "welcome to GHA"
+  runs-on: ubuntu-latest
+  steps:
+    - name: Hello steps:
+      run: echo "welcome to GHA"
