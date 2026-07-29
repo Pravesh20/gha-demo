@@ -1,8 +1,12 @@
 name: Hello Pravesh
-on: workflow_dispatch
+
+on:
+  workflow_dispatch:
+
 jobs:
   hello:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Hello steps:
-        run: echo "welcome to GHA"
+      - name: Hello step
+        run: echo "Welcome to GHA"
