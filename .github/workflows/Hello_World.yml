@@ -1,4 +1,4 @@
-Name: Pravesh
+name: Pravesh
 on: workflow_dispatch
 jobs:
   build:
