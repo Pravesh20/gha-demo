@@ -10,11 +10,11 @@ on:
           - dev
           - test
           - prod
-   jobs:
-     inputs-demo:
-       runs-on: ubuntu-latest
-       steps:
-         - name: Deploy the app
-           run: echo "deploying the application to ${{ inputs.environment }}"
+jobs:
+  inputs-demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy the app
+        run: echo "deploying the application to ${{ inputs.environment }}"
          - 
         
